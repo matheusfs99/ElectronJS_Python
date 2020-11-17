@@ -11,7 +11,7 @@ sleep(1)
 
 a = navegador.find_element_by_tag_name('a')
 
-for click in range(10):
+for i in range(10):
     ps = navegador.find_elements_by_tag_name('p')
     a.click()
 
