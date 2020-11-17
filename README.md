@@ -1,9 +1,13 @@
 # Integração de sistema desktop usando ElectronJS e Python
+Este código é baseado no tutorial do site: https://www.ahmedbouchefra.com/using-python-with-electron-tutorial/
+
+Foi incrementado ao tutorial um programa em python para automação web em selenium.
+
 
 ## Requisitos:
 É preciso ter instalado o node.js e o Python;
 
-Obs: O script python com selenium nacessita do navegador firefox. 
+Obs: O script python com selenium nacessita do navegador firefox.
 
 ## Preparando o Ambiente:
 Instale o electron pelo npm com o comando:
