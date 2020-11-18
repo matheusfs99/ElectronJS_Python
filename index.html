@@ -3,8 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World with Electron and Python</title>
+    <script type="text/javascript">
+    function login(){
+      var login = document.getElementById('login').value();
+      var senha = document.getElementById('senha').value();
+      console.log(login + senha)
+    }
+    </script>
   </head>
   <body>
     <h1>Hello World!</h1>
+    <form method="post">
+      <input type="text" name="login" id="login" placeholder="login">
+      <input type="password" name="senha" id="senha" placeholder="senha">
+      <button type="button" onclick="login()">Entrar</button>
+    </form>
+
   </body>
 </html>
